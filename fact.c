@@ -1,23 +1,14 @@
 #include<stdio.h>
 int main(){
 	int k;
-	int a=2;
+	int a;
 	scanf("%d");
-    for(;k!=0;)
-	{
-		if(k%a==0)
+    for(a=3;k!=0;a++)
+    {
+    	while(k%a==0)
 		{
-			printf("%d",a);
-			k=k/a;
-		}
-		else
-		{
-			a++;
-		}
-	}
-	if(k==0)
-	{
-		printf("0");
+			printf("%d",a);	
+		}	
 	}
 	return 0;
 }
