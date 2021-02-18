@@ -2,9 +2,10 @@
 int main(){
 	int x,i,ax,check=0,m;
 	scanf("%d",&x);
+	int ans[x]={0};
  	if(x>=0&&x<=2000000)
  	{
-	for(;x>0;x--)
+	for(j=0;x>0;x--,j++)
  	{
  		if(x%2==0)
 		{
@@ -24,8 +25,7 @@ int main(){
 		}
 		else
 		{
-			printf("%d",x);
-			return 0;
+			ans[j]=x;
 		}
 	}
 }
