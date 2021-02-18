@@ -1,8 +1,9 @@
 #include<stdio.h>
 int main(){
-	int x,i,ax,check=0,m;
+	int x,i,ax,check=0,m,k;
 	scanf("%d",&x);
 	int ans[x]={0};
+	ax=x;
  	if(x>=0&&x<=2000000)
  	{
 	for(j=0;x>0;x--,j++)
@@ -29,5 +30,10 @@ int main(){
 		}
 	}
 }
+	int 
+	for(k=0;k>=ax;k++)
+	{
+		
+	}
 	return 0;
 }
