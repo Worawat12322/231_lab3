@@ -18,15 +18,15 @@ int main(){
 			}
 		}
 	}
-	int prime_t=0,money=0;
-	for(k=1;k<=max_ja-1;k++)
+	int mx=1,kanan=max[1];
+	for(k=1;k<=max_ja;k++)
 	{
 		if(max[k]<max[k+1])
 		{
-			prime_t=k+1;
-			money=max[k+1];
+			mx=k+1;
+			kanan=max[k+1];
 		}
 	}
-	printf("%d %d",prime_t,money);
+	printf("%d %d",mx,kanan);
 	return 0;
 }
